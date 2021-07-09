@@ -4,13 +4,13 @@
     <Version>0.3.5-dev</Version>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>EasyAbp Team</Authors>
+    <Authors>yuansicloud Team</Authors>
     <Description>An integrated user notification service Abp module, supporting email, SMS, PM, and more other methods.</Description>
     <PackageIconUrl>https://avatars3.githubusercontent.com/u/58311641?s=128</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/EasyAbp/NotificationService</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/EasyAbp/NotificationService</RepositoryUrl>
-    <PackageTags>abp module easyabp notification notify user</PackageTags>
-    <Company>EasyAbp</Company>
+    <PackageProjectUrl>https://github.com/yuansicloud/NotificationService</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yuansicloud/NotificationService</RepositoryUrl>
+    <PackageTags>abp module yuansicloud notification notify user</PackageTags>
+    <Company>yuansicloud</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
