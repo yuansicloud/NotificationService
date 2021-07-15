@@ -11,6 +11,11 @@ namespace EasyAbp.NotificationService.Notifications
 
         public IEnumerable<Guid> UserIds { get; set; }
 
+        protected CreateNotificationEto()
+        {
+
+        }
+
         public CreateNotificationEto(Guid? tenantId, IEnumerable<Guid> userIds)
         {
             TenantId = tenantId;

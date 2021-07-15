@@ -14,6 +14,9 @@ namespace EasyAbp.NotificationService.Provider.PrivateMessaging
         [CanBeNull]
         public string Content { get; set; }
 
+        public CreatePrivateMessageNotificationEto()
+        {
+        }
 
         public CreatePrivateMessageNotificationEto(
             Guid? tenantId,

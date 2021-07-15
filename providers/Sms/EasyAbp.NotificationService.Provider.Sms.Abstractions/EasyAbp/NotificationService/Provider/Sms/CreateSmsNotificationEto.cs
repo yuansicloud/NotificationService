@@ -13,7 +13,11 @@ namespace EasyAbp.NotificationService.Provider.Sms
 
         [NotNull]
         public IDictionary<string, object> Properties { get; set; }
-        
+
+        public CreateSmsNotificationEto()
+        {
+        }
+
         public CreateSmsNotificationEto(
             Guid? tenantId,
             IEnumerable<Guid> userIds,
